@@ -1,5 +1,5 @@
 {
-  "name": "iProgrammer-RN-pdf-lib",
+  "name": "iprogrammer-rn-pdf-lib",
   "version": "1.0.0",
   "description": "A react native library for handling generating PDFs",
   "main": "index.js",
