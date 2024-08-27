@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   s.source_files  = "**/*.{h,mm}"
   s.header_mappings_dir = "lib/include"
   s.ios.vendored_libraries =["lib/universal/libFreeType.a", "lib/universal/libLibJpeg.a", "lib/universal/libLibTiff.a", "lib/universal/libPDFWriter.a", "lib/universal/libZlib.a"]
+  install_modules_dependencies(s)
 end
